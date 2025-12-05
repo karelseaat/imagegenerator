@@ -1,12 +1,12 @@
  # imagegenerator
 
-Welcome to the `imagegenerator` repository, a Python-based application designed for seamlessly compositing images with customizable backgrounds, midgrounds, and foregrounds. This tool can prove beneficial for developers working on projects that require dynamic image manipulation.
+Welcome to the `imagegenerator` repository, a Python-based application for compositing images with customizable backgrounds, midgrounds, and foregrounds. This tool can benefit developers working on projects requiring dynamic image manipulation.
 
 ## Installation
 
 To get started with the `imagegenerator`, follow these steps:
 
-1. Clone this repository to your local machine using the following command in your terminal or command prompt:
+1. Clone this repository to your local machine using the command below in your terminal or command prompt:
 
 ```bash
 git clone https://github.com/yourusername/imagegenerator.git
@@ -42,4 +42,22 @@ The repository consists of separate folders for background (`background`), midgr
 
 In order to keep the virtual environment and temporary files out of version control, we have included a `.gitignore` file in this repository. You can customize it according to your specific project needs.
 
-That's all! We hope you find the `imagegenerator` useful for your projects. If you encounter any issues or have suggestions, please open an issue on this GitHub repository or submit a pull request. Happy image compositing!
+## Code Structure
+
+The application's logic resides within the `main.py` script. The code first loads images from their respective folders and performs necessary operations such as colorization, alignment, and resizing before combining them into a final composite image.
+
+## Dependencies
+
+The following dependencies are required to run this application:
+
+- Pillow (PIP package)
+
+## Contributing
+
+If you encounter any issues or have suggestions, please open an issue on the [Issues](https://github.com/yourusername/imagegenerator/issues) tab of this repository. We welcome pull requests as well!
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+That's all! We hope you find the `imagegenerator` useful for your projects. Enjoy coding!
